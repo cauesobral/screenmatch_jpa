@@ -1,17 +1,13 @@
-package br.com.alura.screenmatch.principal;
+package br.com.cauesobral.screenmatch.principal;
 
-import br.com.alura.screenmatch.model.DadosSerie;
-import br.com.alura.screenmatch.model.DadosTemporada;
-import br.com.alura.screenmatch.model.Episodio;
-import br.com.alura.screenmatch.service.ConsumoApi;
-import br.com.alura.screenmatch.service.ConverteDados;
+import br.com.cauesobral.screenmatch.model.DadosSerie;
+import br.com.cauesobral.screenmatch.model.DadosTemporada;
+import br.com.cauesobral.screenmatch.service.ConsumoApi;
+import br.com.cauesobral.screenmatch.service.ConverteDados;
 
 import java.util.ArrayList;
-import java.util.DoubleSummaryStatistics;
 import java.util.List;
-import java.util.Map;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class Principal {
 

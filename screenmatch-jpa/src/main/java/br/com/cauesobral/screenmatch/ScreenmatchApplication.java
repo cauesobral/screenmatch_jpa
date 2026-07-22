@@ -1,6 +1,6 @@
-package br.com.alura.screenmatch;
+package br.com.cauesobral.screenmatch;
 
-import br.com.alura.screenmatch.principal.Principal;
+import br.com.cauesobral.screenmatch.principal.Principal;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

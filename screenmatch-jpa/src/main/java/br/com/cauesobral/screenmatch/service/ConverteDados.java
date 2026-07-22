@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.service;
+package br.com.cauesobral.screenmatch.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
