@@ -2,6 +2,7 @@ package br.com.cauesobral.screenmatch.principal;
 
 import br.com.cauesobral.screenmatch.model.DadosSerie;
 import br.com.cauesobral.screenmatch.model.DadosTemporada;
+import br.com.cauesobral.screenmatch.model.Serie;
 import br.com.cauesobral.screenmatch.service.ConsumoApi;
 import br.com.cauesobral.screenmatch.service.ConverteDados;
 
@@ -67,5 +68,12 @@ public class Principal {
             temporadas.add(dadosTemporada);
         }
         temporadas.forEach(System.out::println);
+    }
+
+    private void listarSeriesBuscadas() {
+        List<Serie> series = new ArrayList<>();
+        series = dadosSerie.stream()
+                .map()
+
     }
 }
