@@ -29,7 +29,7 @@ public class DesafiosAula1 {
         System.out.println(obterPrimeiroEUltimoNome("  João Carlos Silva   ")); // Saída: "João Silva"
         System.out.println(obterPrimeiroEUltimoNome("Maria   ")); // Saída: "Maria"
 
-        //Ex 4 - verificar se é palindromo
+        //Ex 4 - verificar se é palindro
         System.out.println(ehPalindromo("socorram me subi no onibus em marrocos")); // Saída: true
         System.out.println(ehPalindromo("Java")); // Saída: false
 
